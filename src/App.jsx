@@ -9,13 +9,14 @@ import CreditsSection from "./sections/CreditsSection";
 import FAQSection from "./sections/FAQSection";
 import FooterSection from "./sections/FooterSection";
 import Shuffle from "./components/reactbits/Shuffle";
-
+import Particles from "./components/reactbits/Particles";
 
 export default function App() {
   const [showTimer, setShowTimer] = useState(true);
 
   return (
     <>
+      <Particles />   {/* ⭐ global background */}
       {/* ⭐ TIMER (controlled visibility) */}
       {showTimer && <CountdownTimer />}
 
