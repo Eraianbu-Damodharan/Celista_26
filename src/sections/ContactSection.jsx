@@ -3,7 +3,6 @@ export default function ContactSection() {
     background: "#000",
     padding: "120px 8vw",
     color: "white",
-    position: "relative",
     zIndex: 5,
   };
 

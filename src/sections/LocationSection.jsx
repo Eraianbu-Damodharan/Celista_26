@@ -45,6 +45,7 @@ const section = {
   padding: "120px 8vw",
   background: "#000",
   color: "red",
+  zIndex: 5,
 };
 
 const title = {
