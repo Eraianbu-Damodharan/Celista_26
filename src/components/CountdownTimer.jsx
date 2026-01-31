@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function CountdownTimer() {
   // ⭐ SET YOUR SYMPOSIUM DATE HERE
-  const target = new Date("2026-03-10T09:00:00").getTime();
+  const target = new Date("2026-02-26T09:00:00").getTime();
 
   const [time, setTime] = useState(getTime());
 
@@ -60,7 +60,7 @@ function TimeBlock({ value, label }) {
 
 const wrapper = {
   position: "fixed",
-  top: "25px",
+  top: "80px",
   left: "25px",
 
   display: "flex",

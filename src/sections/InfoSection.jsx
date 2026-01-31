@@ -22,6 +22,7 @@ export default function InfoSection() {
 
   return (
     <section
+      id="about"
       style={{
         background: "#000",
         padding: "120px 8vw",

@@ -2,7 +2,9 @@ import { color } from "three/tsl";
 
 export default function LocationSection() {
   return (
-    <section style={section}>
+    <section 
+    id="location"
+    style={section}>
       <h1 style={title}>Our Location</h1>
 
       <div style={card}>

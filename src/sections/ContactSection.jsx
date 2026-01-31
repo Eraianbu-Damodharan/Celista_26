@@ -59,7 +59,10 @@ export default function ContactSection() {
   };
 
   return (
-    <section style={sectionStyle}>
+    <section 
+    
+    id="contact"
+    style={sectionStyle}>
       {/* TITLE */}
       <h1 style={titleStyle}>Contact Us</h1>
 

@@ -10,6 +10,7 @@ import FAQSection from "./sections/FAQSection";
 import FooterSection from "./sections/FooterSection";
 import Shuffle from "./components/reactbits/Shuffle";
 import Particles from "./components/reactbits/Particles";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   const [showTimer, setShowTimer] = useState(true);
@@ -17,6 +18,7 @@ export default function App() {
   return (
     <>
       <Particles />   {/* ⭐ global background */}
+      <Navbar />      {/* ⭐ fixed navbar */}
       {/* ⭐ TIMER (controlled visibility) */}
       {showTimer && <CountdownTimer />}
 

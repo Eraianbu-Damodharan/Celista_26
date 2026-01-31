@@ -28,6 +28,7 @@ export default function EventsSection() {
   return (
     <>
       <section
+        id="events"
         style={{
           background: "#050505",
           padding: "80px 8vw",
