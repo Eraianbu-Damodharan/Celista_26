@@ -15,7 +15,7 @@ export default function EventOverlay({ event, onClose }) {
         onClick={onClose}
         style={{
           position: "fixed",
-          top: 30,
+          top: 100,
           right: 40,
           background: "none",
           border: "1px solid red",
@@ -29,8 +29,8 @@ export default function EventOverlay({ event, onClose }) {
         ✕ CLOSE
       </button>
 
-      <h1 style={{ color: "red", fontSize: "64px" }}>{event.title}</h1>
-      <p style={{ opacity: 0.6, marginTop: "10px" }}>{event.type} Event</p>
+      <h1 style={{ color: "red",textAlign: "center", fontSize: "64px" }}>{event.title}</h1>
+      <p style={{ opacity: 0.6,textAlign: "center", marginTop: "10px" }}>{event.type} Event</p>
 
       <div style={{ marginTop: "50px", fontSize: "20px", lineHeight: 1.7 }}>
         <p><b>Description:</b> {event.description}</p>
