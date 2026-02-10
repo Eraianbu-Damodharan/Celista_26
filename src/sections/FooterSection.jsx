@@ -105,9 +105,8 @@ export default function FooterSection() {
   onClick={scrollTop}
   style={{
     position: "absolute",   // ⭐ changed (IMPORTANT)
-    right: 30,
-    bottom: 30,
-
+    right: 150,
+    bottom: 24,
     width: 48,
     height: 48,
     borderRadius: 12,

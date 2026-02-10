@@ -164,7 +164,7 @@ export default function ThreeCanvas() {
         inset: 0,
         width: "100vw",
         height: "100vh",
-        zIndex: 0,
+        zIndex: 2,
         pointerEvents: "none",
       }}
     />

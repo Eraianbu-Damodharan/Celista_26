@@ -11,6 +11,7 @@ import FooterSection from "./sections/FooterSection";
 import Shuffle from "./components/reactbits/Shuffle";
 import Particles from "./components/reactbits/Particles";
 import Navbar from "./components/Navbar";
+import ChatBot from "./components/Chatbot/Chatbot";
 
 export default function App() {
   const [showTimer, setShowTimer] = useState(true);
@@ -81,22 +82,20 @@ export default function App() {
 
       {/* ================= INFO ================= */}
       <InfoSection />
-
       {/* ================= EVENTS ================= */}
       <EventsSection />
-
-      {/* ================= LOCATION ================= */}
-      <LocationSection />
-
       {/* ================= CONTACT ================= */}
       <ContactSection />
-
+      {/* ================= LOCATION ================= */}
+      <LocationSection />
       {/* ================= CREDITS ================= */}
       <CreditsSection setShowTimer={setShowTimer} />
       {/* ================= FAQ ================= */}
       <FAQSection />
       {/* ================= FOOTER ================= */}
       <FooterSection />
+      {/* ================= CHATBOT ================= */}
+      { <ChatBot /> }
     </>
   );
 }
